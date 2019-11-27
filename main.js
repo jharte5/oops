@@ -12,7 +12,7 @@ const Stack = function() {
         return removed
       },
       peek: function () {
-        return items.unshift()
+        return this.items
       },
 
   }
@@ -29,7 +29,7 @@ const Queue = function() {
         return removed
       },
       peek: function () {
-
+        return this.items[0]
       }
   }
 }
